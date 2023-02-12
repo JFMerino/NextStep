@@ -1,0 +1,114 @@
+.header-home{
+    align-content: center;
+    align-items: center;
+    background: radial-gradient(50% 55.60000000000001% at 50% 97.6%,#e3ccff 0%,hsl(0,0%,100%) 100%);
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 60px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 100px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home{
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    max-width: 1200px;
+    width: 100%;    
+}
+
+.welcome{
+    flex: none;
+    height: auto;
+    overflow: visible;
+    position: relative;
+    white-space: pre-wrap;
+    word-break: break-word;
+    word-wrap: break-word;
+    max-width: 652px;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: var(--semibold);
+    font-size: 80px;
+    text-align: center;
+    line-height: 1em;
+    color: var(--black);
+}
+
+.welcome span{
+    color: var(--morado);
+    background-color: transparent;
+}
+
+.content-home{
+    color: var(--grey);
+    font-size: 28px;
+    font-weight: var(--medium);
+    text-align: center;
+    opacity: 0.8;
+    width: 1fr;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    max-width: 652px;
+    width: 100%;
+}
+
+.home input{
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: var(--azul);
+    border: transparent;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: var(--medium);
+}
+
+.mobile{
+    position: relative;
+    height: 595px;
+    overflow-y: hidden;
+    background-color: #ffffff;
+    width: 288px;
+}
+
+.mobile-form{
+    background-color: transparent;
+    border: 10px solid black;
+    border-radius: 30px;
+    width: 268px;
+    height: 575px;
+    position: absolute;
+}
+
+.content-mobile{
+    top: 0;
+}
+
+.header-mobile{
+    position: static;
+    height: 70px;
+    top: 0;
+    padding: 15px 15px 0 15px;
+    background-color: aqua;
+    border-radius: 30px 30px 0 0;
+}
+
+.back{
+    display: flex;
+}

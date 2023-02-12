@@ -1,0 +1,349 @@
+.section{
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    gap: 75px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.media-section{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.position{
+    max-width: 400px;
+    width: 100%;
+    height: 430px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.fondo{
+    max-width: 400px;
+    width: 100%;
+    height: 272px;
+    background-color: #f5f5ff;
+    border-radius: 40px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+}
+
+.media-section img{
+    width: 399px;
+    height: 427px;
+    position: absolute;
+    background-color: transparent;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.content-section{
+    width: 50%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    bottom: 0;
+    margin: auto 0;
+    z-index: 7;
+}
+
+.title-section{
+    color: var(--black);
+    font-weight: var(--semibold);
+    font-size: 48px;
+    margin: 0;
+}
+
+.paragraph-section{
+    color: var(--grey-navbar);
+    font-weight: var(--normal);
+    font-size: 24px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.padre{
+    position: absolute;
+    z-index: 3;
+    bottom: 70px;
+    left: -70px;
+}
+
+.emoji{
+    background-color: var(--morado-2);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;   
+    position: relative;
+    font-size: 24px;
+}
+
+.emoji .emoji-chica{  
+    margin: 5px;
+    align-items: center;
+    text-align: center; 
+    position: absolute;
+}
+
+.audio-form{
+    position: absolute;
+    z-index: 3;
+    background-color: var(--morado);
+    bottom: 70px;
+    left: -10px;
+}
+
+.fila-emojis{
+    display: flex;
+    background-color: var(--blanco);
+    position: absolute;
+    z-index: 3;
+    right: -60px;
+    border-radius: 30px;
+    bottom: 165px;
+    margin: 0;
+    height: min-content;
+    gap: 10px;
+    height: 45px;
+    align-items: center;
+    box-shadow:  5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    padding: 0 5px;
+}
+
+.media{
+    position: relative;
+    height: 575px;
+    width: 270px;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    overflow: hidden;
+
+    border-radius: 20px;
+    display: block;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0);
+    object-position: 50% 50%;
+    left: 10px;
+}
+
+.mobile-form{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+}
+
+.container-datos{
+    background-color: transparent;
+}
+
+.title-mobile{
+    height: 70px;
+    width: 100%;
+    background-color: var(--blanco);
+    z-index: 3;
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.8;
+}
+
+.container-title-mobil{
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: absolute;
+}
+
+.emojis{
+    background-color: var(--naranja);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;   
+    position: relative;
+    font-size: 24px;
+    top: 12.5px;
+    left: 20px;
+}
+
+.emojis .emoji-chico{  
+    margin: 5px ;
+    align-items: center;
+    text-align: center; 
+    position: absolute;
+}
+
+.nombre-tiempo{
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    left: 70px;
+    padding-top: 20px;
+}
+
+.nombre{
+    margin:  0;
+    font-size: 13px;
+    color: var(--black);
+    font-weight: var(--semibold);
+    background-color: transparent;
+}
+.tr{
+    background-color: transparent;
+    display: flex;
+}
+
+.tiempo{
+    margin: 0;
+    font-size: 12px;
+    color: var(--grey-navbar);
+    font-weight: var(--medium);
+    background-color: transparent;
+}
+
+.tres-puntos{
+    background-color: transparent;
+    padding-top: 28.5px;
+}
+
+.punto{
+    width: 3px;
+    height: 3px;
+    background-color: var(--grey-navbar);
+    border-radius: 50%;
+    margin-bottom: 3px;
+    top: 10px;
+}
+
+.movil{
+    position: relative;
+}
+
+.content-movil{
+    margin:0 10px ;
+    font-size: 13px;
+    color: var(--black);
+    font-weight: var(--semibold);
+    background-color: transparent;
+    text-align: center;
+}
+
+.atras{
+    position: relative;
+    font-size: 24px;
+    top: 12.5px;
+    left: 20px;
+    background-color: transparent;
+}
+
+.fa-chevron-left{
+    background-color: transparent;
+}
+
+.tres-puntos-2{
+    background-color: transparent;
+    padding-top: 23px;
+}
+
+.media-2{
+    background-color: var(--blanco-2);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    z-index: 1;
+    position: absolute;
+}
+
+.footer-movil{
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    position: absolute;
+    background-color: var(--blanco);
+    border-radius: 30px;
+    z-index: 2;
+}
+
+.footer-movil input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--azul);
+    border: transparent;
+    color: #ffffff;
+    font-size: 17px;
+    width: 85px;
+    height: 50px;
+    font-weight: var(--medium);
+    bottom: 20px;
+    position: absolute;
+    margin: 0 86px;
+    
+}
+
+.section-tabla{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.table{
+    position: absolute;
+    z-index: 5;
+    right: -400px;
+    background-color: transparent;
+    font-family: var(--texto-tabla);
+    width: 500px;
+    bottom: 65px;
+}
+
+.cabecera{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid var(--grey-navbar);
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    align-items: center;
+    background-color: var(--blanco-2);
+    font-weight: var(--semibold);
+}
+
+.columnas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid var(--grey-navbar);
+    text-align: center;
+    align-items: center;
+}
+
+.subtitle-table{
+    flex-wrap: wrap;
+    font-weight: var(--medium);
+}
+
+.columnas:nth-child(7){
+    border-radius: 0 0 20px 20px;
+}
+
+.contenido-tabla{
+    font-weight: var(--normal);
+}
+
+/* Seleccionar el elemento en la tabla que se ocultara
+.columnas:nth-child(3){
+    display: none;
+}
+*/

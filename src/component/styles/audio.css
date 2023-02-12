@@ -1,0 +1,31 @@
+.audio-form{
+    width: 150px;
+    height: 45px;
+    border-radius: 0 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--blanco);
+    font-size: 13px;
+    font-family: var(--medium);
+    justify-content: center;
+}
+
+.linea{
+    border: 1px solid white;
+    width: 60px;
+    height: 1px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.play{
+    height: 0px;
+    width: 0px;
+    border-left: 11px solid rgb(255, 255, 255);
+    border-bottom: 6.5px solid transparent;
+    border-top: 6.5px solid transparent;
+    background-color: transparent;
+}

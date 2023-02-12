@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#root {
+  --font: 'Outfit', serif;
+  --normal: 400;
+  --medium: 500;
+  --semibold: 600;
+  --grey-navbar:  #575757;
+  --morado: #A873E8;
+  --azul: #28CDCF;
+  --blanco: #ffffff;
+  --black: #000;
+  --morado-2: #E6D1FF;
+  --naranja: #F5D2B8;
+  --blanco-2: #faf5ff;
+  --cabecera-tabla: #f7f7f7;
+  --texto-tabla: 'Be Vietnam Pro', serif;
+}
+
+*{
+  font-family: var(--font);
+  background-color: var(--blanco);
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}

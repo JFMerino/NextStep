@@ -1,0 +1,8 @@
+.mobile-form{
+    background-color: transparent;
+    border: 10px solid black;
+    border-radius: 30px;
+    width: 268px;
+    height: 575px;
+    position: absolute;
+}
