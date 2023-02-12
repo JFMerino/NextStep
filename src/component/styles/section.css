@@ -259,7 +259,7 @@ video{
 }
 
 .media-2{
-    background-color: var(--blanco-2);
+    background-color: var(--blanco-3);
     width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -300,14 +300,21 @@ video{
     height: 600px;
 }
 
+.media-table{
+    position: relative;
+    width: 800px;
+    height: auto;
+}
+
 .table{
     position: absolute;
     z-index: 5;
-    right: -400px;
+    right: 150px;
     background-color: transparent;
     font-family: var(--texto-tabla);
-    width: 500px;
-    bottom: 65px;
+    max-width: 500px;
+    width: 100%;
+    top: 95px;
 }
 
 .cabecera{
@@ -317,7 +324,7 @@ video{
     border-radius: 20px 20px 0 0;
     text-align: center;
     align-items: center;
-    background-color: var(--blanco-2);
+    background-color: var(--blanco-3);
     font-weight: var(--semibold);
 }
 
@@ -334,8 +341,22 @@ video{
     font-weight: var(--medium);
 }
 
+.columnas:nth-child(0),
+.columnas:nth-child(2),
+.columnas:nth-child(4),
+.columnas:nth-child(6){
+    background-color: var(--blanco);
+}
+
+.columnas:nth-child(1),
+.columnas:nth-child(3),
+.columnas:nth-child(5){
+    background-color: var(--blanco-3);
+}
+
 .columnas:nth-child(7){
     border-radius: 0 0 20px 20px;
+    background-color: var(--blanco-3);
 }
 
 .contenido-tabla{

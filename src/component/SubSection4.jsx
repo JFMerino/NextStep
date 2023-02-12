@@ -7,7 +7,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 export const SubSection4 = () => {
   return (
     <div className="section-tabla">
-      <div className="media">
+      <div className="media-table">
         <div className="mobile-form">
         <div className="media-2"></div>
           <div className="container-title-mobil">

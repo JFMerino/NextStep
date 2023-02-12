@@ -1,0 +1,58 @@
+.footer{
+    background-color: var(--morado);
+    width: 100%;
+    height: 90vh;
+}
+
+.container-footer{
+    padding: 100px;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.encabezado{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titulo-footer{
+    max-width: 650px;
+    width: 100%;
+    color: var(--blanco);
+    text-align: center;
+    font-size: 60px;
+    margin: 0 auto;
+    font-weight: var(--semibold);
+}
+
+.footer input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--black);
+    border: transparent;
+    color: var(--blanco);
+    font-size: 17px;
+    width: 170px;
+    height: 50px;
+    font-weight: var(--medium);
+    margin: 0 auto;
+}
+
+.line-footer{
+    max-width: 1000px;
+    width: 100%;
+    border-bottom: 1px solid var(--blanco-21);
+}
+
+.fa-facebook{
+    width: 40px;
+    font-size: 40px;
+}
