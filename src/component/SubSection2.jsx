@@ -4,7 +4,7 @@ import "./styles/phone.css";
 
 export const SubSection2 = () => {
   return (
-    <div className="section">
+    <div className="section inversa">
       <div className="content-section">
         <h1 className="title-section">
           Crea un perfil de usuario y comparte tus datos con empresas

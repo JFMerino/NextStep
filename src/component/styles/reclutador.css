@@ -34,3 +34,17 @@
     height: 50px;
     font-weight: var(--medium);
 }
+
+@media (max-width: 1199px){
+
+}
+
+@media (max-width: 809px){
+    .recluta{
+        padding: 0 50px;
+    }
+
+    .title-general{
+        font-size: 40px;
+    }
+}

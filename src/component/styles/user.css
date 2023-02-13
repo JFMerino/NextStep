@@ -45,3 +45,13 @@
     color: var(--blanco);
     
 }
+
+@media (max-width: 809px){
+    .usuario{
+        flex-direction: column;
+    }
+
+    .usuario .item-usuarios{ 
+        margin: 30px 0;
+    }
+}

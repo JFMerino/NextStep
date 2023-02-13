@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./Home";
+import SubSection11 from "./SubSection1-1";
 import Usuarios from "./Usuarios";
 import Reclutador from "./Reclutador";
 import SubSection1 from "./SubSection1";
@@ -12,7 +12,7 @@ export const Contenido = () => {
   return (
     <>
       <section className="section-home">
-        <Home />
+        <SubSection11 />
       </section>
       <section className="section-usuarios">
         <Usuarios />

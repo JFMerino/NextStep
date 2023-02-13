@@ -15,7 +15,7 @@ export const NavBar = () => {
         <div className="menu">
             <div><p className="item oculto">Eres profesional</p></div>
             <div><p className="item oculto">Eres reclutador</p></div>
-            <div><p className="item"><button>Log In</button></p></div>
+            <div><p className="item"><a href="/login" className="login-nav"><button>Log In</button></a></p></div>
         </div>
       </nav>
     </header>

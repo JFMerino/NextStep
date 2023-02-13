@@ -5,12 +5,6 @@ export const SubSection3 = () => {
   return (
     <div className="section">
       <div className="media-section">
-        <img
-          src="https://framerusercontent.com/images/BSZlVdIaXipFLiVUgQOgPTTl3T4.png?scale-down-to=2048"
-          alt="Woman using a mobile phone"
-          sizes="364px"
-          loading="lazy"
-        />
         <div className="position">
           <div className="img">
             <img
