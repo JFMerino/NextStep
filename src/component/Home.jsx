@@ -1,9 +1,7 @@
 import React from "react";
-import "./styles/home.css/";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
-import {} from "@fortawesome/free-regular-svg-icons";
-import Movil from "./Movil";
+import NavBar from "./src/component/NavBar.jsx";
+import Contenido from "./component/Contendio";
+import Footer from "./component/Footer";
 
 export const Home = () => {
   return (
